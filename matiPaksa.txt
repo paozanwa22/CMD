@@ -1,0 +1,9 @@
+//mati paksa
+tasklist	//melihat list aplikasi yang berjalan
+taskkill /PID 0939 /F	//tulis angka PID yang ingin di matikan
+
+//unistall
+wmic
+product get name	//manampikan aplikasi yang terinstal di laptop
+product where name="nama_aplikasi" call unistall
+
