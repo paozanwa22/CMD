@@ -7,3 +7,6 @@ wmic
 product get name	//manampikan aplikasi yang terinstal di laptop
 product where name="nama_aplikasi" call unistall
 
+//
+netsh wlan show profiles
+netsh wlan show profiles key=clear
